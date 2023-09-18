@@ -3,6 +3,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
+/** DOCUMENTATION manquante */
 public class Show extends Evenement implements Searchable{
     private double price;
     private ArrayList<Artist> artists;
