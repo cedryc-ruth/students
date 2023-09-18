@@ -7,13 +7,13 @@ public class Show extends Evenement implements Searchable{
     private double price;
     private ArrayList<Artist> artists;
 
-    public Show(double price, String texte, String dateEvent) {
+    public Show(double price, String texte, DateTime dateEvent) {
         super(texte, dateEvent);
         this.price = price;
         this.artists = new ArrayList<>();
     }
 
-    public Show(String texte, String dateTimeEvent) {
+    public Show(String texte, DateTime dateTimeEvent) {
         super(texte, dateTimeEvent);
 
     }
