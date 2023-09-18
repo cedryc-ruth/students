@@ -2,9 +2,9 @@ public class Artist {
     private String pseudo;
     private String firstName;
     private String lastName;
-    private String style;
+    private Style style;
 
-    public Artist(String pseudo, String firstName, String lastName, String style) {
+    public Artist(String pseudo, String firstName, String lastName, Style style) {
         this.pseudo = pseudo;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -35,11 +35,11 @@ public class Artist {
         this.lastName = lastName;
     }
 
-    public String getStyle() {
+    public Style getStyle() {
         return style;
     }
 
-    public void setStyle(String style) {
+    public void setStyle(Style style) {
         this.style = style;
     }
 
