@@ -45,4 +45,6 @@ class ShowTest {
     assertEquals(0d, show1.getPrice());
     }
 
+    /* Tests manquants : InvalidDateException, findBy() et toString() */
+
 }
