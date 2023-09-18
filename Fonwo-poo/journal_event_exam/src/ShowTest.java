@@ -24,14 +24,14 @@ class ShowTest {
         assertEquals("Fête de la musique", show2.getTexte());
         assertEquals(2023, show1.getDateEvent().getYear());
         assertEquals(9, show1.getDateEvent().getMonth());
-        assertEquals(30, show1.getDateEvent().getMonth());
+        assertEquals(4, show1.getDateEvent().getDayOfMonth());
         assertEquals(20, show1.getDateEvent().getHour());
         assertEquals(00, show1.getDateEvent().getMinute());
         assertEquals(50d, show1.getPrice());
         assertEquals(0, show1.getArtists().size());
         assertEquals(2023, show2.getDateEvent().getYear());
         assertEquals(06, show2.getDateEvent().getMonth());
-        assertEquals(21, show2.getDateEvent().getMonth());
+        assertEquals(21, show2.getDateEvent().getDayOfMonth());
         assertEquals(18, show2.getDateEvent().getHour());
         assertEquals(30, show2.getDateEvent().getMinute());
         assertEquals(0d, show2.getPrice());
