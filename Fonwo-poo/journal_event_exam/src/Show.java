@@ -37,6 +37,7 @@ public class Show extends Evenement implements Searchable{
 
     @Override
     public List findBy(String s) {
+        /* Méthode non impléméntée */
         return null;
     }
 
@@ -46,5 +47,6 @@ public class Show extends Evenement implements Searchable{
                 + "Date: " + dateEvent.format(DateTimeFormatter.ofPattern("d/m/y")) + "\n"
                 + "Heure: " + dateEvent.format(DateTimeFormatter.ofPattern("H:m")) + "\n"
                 + "Price: " + price + " €\n";
+        /* Impléméntation incomplète : nombre d'artistes par style */
     }
 }
