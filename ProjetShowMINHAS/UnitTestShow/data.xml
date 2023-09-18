@@ -1,0 +1,5 @@
+<Show texte="Concert Rasta" dateEvent="2023-09-04" price="50.0">
+  <artistes>
+    <artist pseudo="The King of Reggae" fistname="Bob" lastname="Marley" style="RAGGAE"/>
+  </artistes>
+</Show>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/unknown/jakarta.xml.bind-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/unknown/jakarta.xml.bind-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/unknown/jakarta.xml.bind-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
